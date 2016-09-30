@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rMT-kJ-ihv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Crime Reports-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fj7-dO-FMW">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Current Location" id="auq-fv-xTL"/>
+                                    <barButtonItem width="187" style="plain" systemItem="fixedSpace" id="BDR-lh-7gt"/>
+                                    <barButtonItem style="plain" systemItem="search" id="6mU-dr-74B"/>
+                                </items>
+                            </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kUN-qp-ygG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="561"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MnY-VI-7YG">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Current Location" id="8Ih-UJ-2Nt"/>
+                                    <barButtonItem width="187" style="plain" systemItem="fixedSpace" id="WOg-5p-cGh"/>
+                                    <barButtonItem style="plain" systemItem="search" id="KL1-X1-0gD">
+                                        <connections>
+                                            <action selector="searchButton:" destination="BYZ-38-t0r" id="Iqc-hK-fTa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MKc-Ti-FUM">
+                                <rect key="frame" x="186" y="582" width="180" height="29"/>
+                                <segments>
+                                    <segment title="standard"/>
+                                    <segment title="satelite"/>
+                                    <segment title="hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mapType:" destination="BYZ-38-t0r" eventType="valueChanged" id="0wS-X4-COh"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Crime Reports" id="Ej4-0h-AbX"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="currentLocation" destination="8Ih-UJ-2Nt" id="OwL-cf-tPp"/>
+                        <outlet property="mapView" destination="kUN-qp-ygG" id="0RU-fp-Jqw"/>
+                        <outlet property="selectMapType" destination="kUN-qp-ygG" id="g7I-t0-SGx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376.5" y="463.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MHL-an-5Nn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rMT-kJ-ihv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3VX-Mm-hi1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jxx-K9-Ugf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDL-wM-Dxa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486" y="1109"/>
+        </scene>
+    </scenes>
+</document>

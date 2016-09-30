@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15D717D1D5C4F20004E4555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D717C1D5C4F20004E4555 /* main.m */; };
+		A15D71801D5C4F20004E4555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D717F1D5C4F20004E4555 /* AppDelegate.m */; };
+		A15D71831D5C4F20004E4555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D71821D5C4F20004E4555 /* ViewController.m */; };
+		A15D71861D5C4F20004E4555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15D71841D5C4F20004E4555 /* Main.storyboard */; };
+		A15D71891D5C4F20004E4555 /* ernestLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15D71871D5C4F20004E4555 /* ernestLogin.xcdatamodeld */; };
+		A15D718B1D5C4F20004E4555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15D718A1D5C4F20004E4555 /* Assets.xcassets */; };
+		A15D718E1D5C4F20004E4555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15D718C1D5C4F20004E4555 /* LaunchScreen.storyboard */; };
+		A15D71991D5C4F20004E4555 /* ernestLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D71981D5C4F20004E4555 /* ernestLoginTests.m */; };
+		A15D71A41D5C4F20004E4555 /* ernestLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D71A31D5C4F20004E4555 /* ernestLoginUITests.m */; };
+		A15D71BB1D5C4FFC004E4555 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B11D5C4FFC004E4555 /* AccountKit.framework */; };
+		A15D71BC1D5C4FFC004E4555 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A15D71B21D5C4FFC004E4555 /* AccountKitStrings.bundle */; };
+		A15D71BD1D5C4FFC004E4555 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B31D5C4FFC004E4555 /* Bolts.framework */; };
+		A15D71BE1D5C4FFC004E4555 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A15D71B41D5C4FFC004E4555 /* FacebookSDKStrings.bundle */; };
+		A15D71BF1D5C4FFC004E4555 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B51D5C4FFC004E4555 /* FBAudienceNetwork.framework */; };
+		A15D71C01D5C4FFC004E4555 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B61D5C4FFC004E4555 /* FBNotifications.framework */; };
+		A15D71C11D5C4FFC004E4555 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B71D5C4FFC004E4555 /* FBSDKCoreKit.framework */; };
+		A15D71C21D5C4FFC004E4555 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B81D5C4FFC004E4555 /* FBSDKLoginKit.framework */; };
+		A15D71C31D5C4FFC004E4555 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71B91D5C4FFC004E4555 /* FBSDKMessengerShareKit.framework */; };
+		A15D71C41D5C4FFC004E4555 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D71BA1D5C4FFC004E4555 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15D71951D5C4F20004E4555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15D71701D5C4F20004E4555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15D71771D5C4F20004E4555;
+			remoteInfo = ernestLogin;
+		};
+		A15D71A01D5C4F20004E4555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15D71701D5C4F20004E4555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15D71771D5C4F20004E4555;
+			remoteInfo = ernestLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15D71781D5C4F20004E4555 /* ernestLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ernestLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15D717C1D5C4F20004E4555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A15D717E1D5C4F20004E4555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A15D717F1D5C4F20004E4555 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A15D71811D5C4F20004E4555 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A15D71821D5C4F20004E4555 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A15D71851D5C4F20004E4555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A15D71881D5C4F20004E4555 /* ernestLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ernestLogin.xcdatamodel; sourceTree = "<group>"; };
+		A15D718A1D5C4F20004E4555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15D718D1D5C4F20004E4555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A15D718F1D5C4F20004E4555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15D71941D5C4F20004E4555 /* ernestLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ernestLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15D71981D5C4F20004E4555 /* ernestLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ernestLoginTests.m; sourceTree = "<group>"; };
+		A15D719A1D5C4F20004E4555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15D719F1D5C4F20004E4555 /* ernestLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ernestLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15D71A31D5C4F20004E4555 /* ernestLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ernestLoginUITests.m; sourceTree = "<group>"; };
+		A15D71A51D5C4F20004E4555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15D71B11D5C4FFC004E4555 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		A15D71B21D5C4FFC004E4555 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		A15D71B31D5C4FFC004E4555 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A15D71B41D5C4FFC004E4555 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		A15D71B51D5C4FFC004E4555 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		A15D71B61D5C4FFC004E4555 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		A15D71B71D5C4FFC004E4555 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A15D71B81D5C4FFC004E4555 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A15D71B91D5C4FFC004E4555 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		A15D71BA1D5C4FFC004E4555 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15D71751D5C4F20004E4555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D71C41D5C4FFC004E4555 /* FBSDKShareKit.framework in Frameworks */,
+				A15D71C11D5C4FFC004E4555 /* FBSDKCoreKit.framework in Frameworks */,
+				A15D71BF1D5C4FFC004E4555 /* FBAudienceNetwork.framework in Frameworks */,
+				A15D71C21D5C4FFC004E4555 /* FBSDKLoginKit.framework in Frameworks */,
+				A15D71BB1D5C4FFC004E4555 /* AccountKit.framework in Frameworks */,
+				A15D71BD1D5C4FFC004E4555 /* Bolts.framework in Frameworks */,
+				A15D71C01D5C4FFC004E4555 /* FBNotifications.framework in Frameworks */,
+				A15D71C31D5C4FFC004E4555 /* FBSDKMessengerShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15D71911D5C4F20004E4555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15D719C1D5C4F20004E4555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15D716F1D5C4F20004E4555 = {
+			isa = PBXGroup;
+			children = (
+				A15D717A1D5C4F20004E4555 /* ernestLogin */,
+				A15D71971D5C4F20004E4555 /* ernestLoginTests */,
+				A15D71A21D5C4F20004E4555 /* ernestLoginUITests */,
+				A15D71791D5C4F20004E4555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A15D71791D5C4F20004E4555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15D71781D5C4F20004E4555 /* ernestLogin.app */,
+				A15D71941D5C4F20004E4555 /* ernestLoginTests.xctest */,
+				A15D719F1D5C4F20004E4555 /* ernestLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15D717A1D5C4F20004E4555 /* ernestLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A15D717E1D5C4F20004E4555 /* AppDelegate.h */,
+				A15D717F1D5C4F20004E4555 /* AppDelegate.m */,
+				A15D71811D5C4F20004E4555 /* ViewController.h */,
+				A15D71821D5C4F20004E4555 /* ViewController.m */,
+				A15D71841D5C4F20004E4555 /* Main.storyboard */,
+				A15D718A1D5C4F20004E4555 /* Assets.xcassets */,
+				A15D718C1D5C4F20004E4555 /* LaunchScreen.storyboard */,
+				A15D718F1D5C4F20004E4555 /* Info.plist */,
+				A15D71871D5C4F20004E4555 /* ernestLogin.xcdatamodeld */,
+				A15D717B1D5C4F20004E4555 /* Supporting Files */,
+			);
+			path = ernestLogin;
+			sourceTree = "<group>";
+		};
+		A15D717B1D5C4F20004E4555 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15D71C51D5C5027004E4555 /* framework */,
+				A15D717C1D5C4F20004E4555 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A15D71971D5C4F20004E4555 /* ernestLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15D71981D5C4F20004E4555 /* ernestLoginTests.m */,
+				A15D719A1D5C4F20004E4555 /* Info.plist */,
+			);
+			path = ernestLoginTests;
+			sourceTree = "<group>";
+		};
+		A15D71A21D5C4F20004E4555 /* ernestLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A15D71A31D5C4F20004E4555 /* ernestLoginUITests.m */,
+				A15D71A51D5C4F20004E4555 /* Info.plist */,
+			);
+			path = ernestLoginUITests;
+			sourceTree = "<group>";
+		};
+		A15D71C51D5C5027004E4555 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				A15D71B11D5C4FFC004E4555 /* AccountKit.framework */,
+				A15D71B21D5C4FFC004E4555 /* AccountKitStrings.bundle */,
+				A15D71B31D5C4FFC004E4555 /* Bolts.framework */,
+				A15D71B41D5C4FFC004E4555 /* FacebookSDKStrings.bundle */,
+				A15D71B51D5C4FFC004E4555 /* FBAudienceNetwork.framework */,
+				A15D71B61D5C4FFC004E4555 /* FBNotifications.framework */,
+				A15D71B71D5C4FFC004E4555 /* FBSDKCoreKit.framework */,
+				A15D71B81D5C4FFC004E4555 /* FBSDKLoginKit.framework */,
+				A15D71B91D5C4FFC004E4555 /* FBSDKMessengerShareKit.framework */,
+				A15D71BA1D5C4FFC004E4555 /* FBSDKShareKit.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15D71771D5C4F20004E4555 /* ernestLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15D71A81D5C4F20004E4555 /* Build configuration list for PBXNativeTarget "ernestLogin" */;
+			buildPhases = (
+				A15D71741D5C4F20004E4555 /* Sources */,
+				A15D71751D5C4F20004E4555 /* Frameworks */,
+				A15D71761D5C4F20004E4555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ernestLogin;
+			productName = ernestLogin;
+			productReference = A15D71781D5C4F20004E4555 /* ernestLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15D71931D5C4F20004E4555 /* ernestLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15D71AB1D5C4F20004E4555 /* Build configuration list for PBXNativeTarget "ernestLoginTests" */;
+			buildPhases = (
+				A15D71901D5C4F20004E4555 /* Sources */,
+				A15D71911D5C4F20004E4555 /* Frameworks */,
+				A15D71921D5C4F20004E4555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15D71961D5C4F20004E4555 /* PBXTargetDependency */,
+			);
+			name = ernestLoginTests;
+			productName = ernestLoginTests;
+			productReference = A15D71941D5C4F20004E4555 /* ernestLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A15D719E1D5C4F20004E4555 /* ernestLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15D71AE1D5C4F20004E4555 /* Build configuration list for PBXNativeTarget "ernestLoginUITests" */;
+			buildPhases = (
+				A15D719B1D5C4F20004E4555 /* Sources */,
+				A15D719C1D5C4F20004E4555 /* Frameworks */,
+				A15D719D1D5C4F20004E4555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15D71A11D5C4F20004E4555 /* PBXTargetDependency */,
+			);
+			name = ernestLoginUITests;
+			productName = ernestLoginUITests;
+			productReference = A15D719F1D5C4F20004E4555 /* ernestLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15D71701D5C4F20004E4555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = strathmore;
+				TargetAttributes = {
+					A15D71771D5C4F20004E4555 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A15D71931D5C4F20004E4555 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A15D71771D5C4F20004E4555;
+					};
+					A15D719E1D5C4F20004E4555 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A15D71771D5C4F20004E4555;
+					};
+				};
+			};
+			buildConfigurationList = A15D71731D5C4F20004E4555 /* Build configuration list for PBXProject "ernestLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A15D716F1D5C4F20004E4555;
+			productRefGroup = A15D71791D5C4F20004E4555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15D71771D5C4F20004E4555 /* ernestLogin */,
+				A15D71931D5C4F20004E4555 /* ernestLoginTests */,
+				A15D719E1D5C4F20004E4555 /* ernestLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15D71761D5C4F20004E4555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D718E1D5C4F20004E4555 /* LaunchScreen.storyboard in Resources */,
+				A15D71BE1D5C4FFC004E4555 /* FacebookSDKStrings.bundle in Resources */,
+				A15D718B1D5C4F20004E4555 /* Assets.xcassets in Resources */,
+				A15D71861D5C4F20004E4555 /* Main.storyboard in Resources */,
+				A15D71BC1D5C4FFC004E4555 /* AccountKitStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15D71921D5C4F20004E4555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15D719D1D5C4F20004E4555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15D71741D5C4F20004E4555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D71831D5C4F20004E4555 /* ViewController.m in Sources */,
+				A15D71801D5C4F20004E4555 /* AppDelegate.m in Sources */,
+				A15D71891D5C4F20004E4555 /* ernestLogin.xcdatamodeld in Sources */,
+				A15D717D1D5C4F20004E4555 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15D71901D5C4F20004E4555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D71991D5C4F20004E4555 /* ernestLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15D719B1D5C4F20004E4555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15D71A41D5C4F20004E4555 /* ernestLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15D71961D5C4F20004E4555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15D71771D5C4F20004E4555 /* ernestLogin */;
+			targetProxy = A15D71951D5C4F20004E4555 /* PBXContainerItemProxy */;
+		};
+		A15D71A11D5C4F20004E4555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15D71771D5C4F20004E4555 /* ernestLogin */;
+			targetProxy = A15D71A01D5C4F20004E4555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A15D71841D5C4F20004E4555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15D71851D5C4F20004E4555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A15D718C1D5C4F20004E4555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15D718D1D5C4F20004E4555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15D71A61D5C4F20004E4555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A15D71A71D5C4F20004E4555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15D71A91D5C4F20004E4555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ernestLogin",
+				);
+				INFOPLIST_FILE = ernestLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmore.091344.ernestLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A15D71AA1D5C4F20004E4555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ernestLogin",
+				);
+				INFOPLIST_FILE = ernestLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmore.091344.ernestLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A15D71AC1D5C4F20004E4555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ernestLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmore.091344.ernestLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ernestLogin.app/ernestLogin";
+			};
+			name = Debug;
+		};
+		A15D71AD1D5C4F20004E4555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ernestLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmore.091344.ernestLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ernestLogin.app/ernestLogin";
+			};
+			name = Release;
+		};
+		A15D71AF1D5C4F20004E4555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ernestLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmore.091344.ernestLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ernestLogin;
+			};
+			name = Debug;
+		};
+		A15D71B01D5C4F20004E4555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ernestLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strathmore.091344.ernestLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ernestLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15D71731D5C4F20004E4555 /* Build configuration list for PBXProject "ernestLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15D71A61D5C4F20004E4555 /* Debug */,
+				A15D71A71D5C4F20004E4555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15D71A81D5C4F20004E4555 /* Build configuration list for PBXNativeTarget "ernestLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15D71A91D5C4F20004E4555 /* Debug */,
+				A15D71AA1D5C4F20004E4555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A15D71AB1D5C4F20004E4555 /* Build configuration list for PBXNativeTarget "ernestLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15D71AC1D5C4F20004E4555 /* Debug */,
+				A15D71AD1D5C4F20004E4555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A15D71AE1D5C4F20004E4555 /* Build configuration list for PBXNativeTarget "ernestLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15D71AF1D5C4F20004E4555 /* Debug */,
+				A15D71B01D5C4F20004E4555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A15D71871D5C4F20004E4555 /* ernestLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A15D71881D5C4F20004E4555 /* ernestLogin.xcdatamodel */,
+			);
+			currentVersion = A15D71881D5C4F20004E4555 /* ernestLogin.xcdatamodel */;
+			path = ernestLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A15D71701D5C4F20004E4555 /* Project object */;
+}

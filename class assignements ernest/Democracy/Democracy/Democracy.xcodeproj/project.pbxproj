@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F43D99CF1E647FB1C77CC95 /* libPods-Democracy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EC61F92939FFB8676E68DE /* libPods-Democracy.a */; };
+		8B4CA61E4BFDD77DAEF211FB /* libPods-DemocracyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F6F786F703AB082E0D1D7 /* libPods-DemocracyTests.a */; };
+		A13184C71D40A20100AB7D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184C61D40A20100AB7D1A /* main.m */; };
+		A13184CA1D40A20100AB7D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184C91D40A20100AB7D1A /* AppDelegate.m */; };
+		A13184CD1D40A20100AB7D1A /* Democracy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A13184CB1D40A20100AB7D1A /* Democracy.xcdatamodeld */; };
+		A13184D01D40A20100AB7D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184CF1D40A20100AB7D1A /* ViewController.m */; };
+		A13184D31D40A20100AB7D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13184D11D40A20100AB7D1A /* Main.storyboard */; };
+		A13184D51D40A20100AB7D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13184D41D40A20100AB7D1A /* Images.xcassets */; };
+		A13184D81D40A20100AB7D1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13184D61D40A20100AB7D1A /* LaunchScreen.xib */; };
+		A13184E41D40A20200AB7D1A /* DemocracyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184E31D40A20200AB7D1A /* DemocracyTests.m */; };
+		A13184EF1D411B7D00AB7D1A /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184EE1D411B7D00AB7D1A /* SearchViewController.m */; };
+		A13184F21D411D3100AB7D1A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184F11D411D3100AB7D1A /* AboutViewController.m */; };
+		A13184F51D411D7F00AB7D1A /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184F41D411D7F00AB7D1A /* HelpViewController.m */; };
+		A13184F81D411DA200AB7D1A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13184F71D411DA200AB7D1A /* SettingsViewController.m */; };
+		A16F4C281D4651770063D5C8 /* DataSouuce.m in Sources */ = {isa = PBXBuildFile; fileRef = A16F4C271D4651770063D5C8 /* DataSouuce.m */; };
+		A1D1B5901D41F8080031764E /* Film.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D1B58E1D41F8080031764E /* Film.xcdatamodeld */; };
+		A1D1B5931D41F8C80031764E /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D1B5921D41F8C80031764E /* Film.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13184DE1D40A20200AB7D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13184B91D40A20100AB7D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13184C01D40A20100AB7D1A;
+			remoteInfo = Democracy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F6F786F703AB082E0D1D7 /* libPods-DemocracyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemocracyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EC61F92939FFB8676E68DE /* libPods-Democracy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Democracy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9DC691F2B1919660CB374D /* Pods-DemocracyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemocracyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemocracyTests/Pods-DemocracyTests.release.xcconfig"; sourceTree = "<group>"; };
+		7380C3E1DAC420B12801559E /* Pods-DemocracyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemocracyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemocracyTests/Pods-DemocracyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93347CE94D0017CA2CCF4525 /* Pods-Democracy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Democracy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Democracy/Pods-Democracy.release.xcconfig"; sourceTree = "<group>"; };
+		A13184C11D40A20100AB7D1A /* Democracy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Democracy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13184C51D40A20100AB7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13184C61D40A20100AB7D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13184C81D40A20100AB7D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13184C91D40A20100AB7D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A13184CC1D40A20100AB7D1A /* Democracy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Democracy.xcdatamodel; sourceTree = "<group>"; };
+		A13184CE1D40A20100AB7D1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A13184CF1D40A20100AB7D1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13184D21D40A20100AB7D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13184D41D40A20100AB7D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A13184D71D40A20100AB7D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A13184DD1D40A20200AB7D1A /* DemocracyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemocracyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13184E21D40A20200AB7D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13184E31D40A20200AB7D1A /* DemocracyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemocracyTests.m; sourceTree = "<group>"; };
+		A13184ED1D411B7D00AB7D1A /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A13184EE1D411B7D00AB7D1A /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A13184F01D411D3100AB7D1A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A13184F11D411D3100AB7D1A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		A13184F31D411D7F00AB7D1A /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		A13184F41D411D7F00AB7D1A /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		A13184F61D411DA200AB7D1A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A13184F71D411DA200AB7D1A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A16F4C261D4651770063D5C8 /* DataSouuce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSouuce.h; sourceTree = "<group>"; };
+		A16F4C271D4651770063D5C8 /* DataSouuce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSouuce.m; sourceTree = "<group>"; };
+		A1D1B58F1D41F8080031764E /* Film.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Film.xcdatamodel; sourceTree = "<group>"; };
+		A1D1B5911D41F8C80031764E /* Film.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		A1D1B5921D41F8C80031764E /* Film.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		A1D1B5961D41FBDB0031764E /* Pchfilemovie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pchfilemovie.pch; sourceTree = "<group>"; };
+		E8D8E14D66D4E4AD113D509A /* Pods-Democracy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Democracy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Democracy/Pods-Democracy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13184BE1D40A20100AB7D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F43D99CF1E647FB1C77CC95 /* libPods-Democracy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13184DA1D40A20200AB7D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4CA61E4BFDD77DAEF211FB /* libPods-DemocracyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13184B81D40A20100AB7D1A = {
+			isa = PBXGroup;
+			children = (
+				A13184C31D40A20100AB7D1A /* Democracy */,
+				A13184E01D40A20200AB7D1A /* DemocracyTests */,
+				A13184C21D40A20100AB7D1A /* Products */,
+				DEFFBECEFE61F3244BF02266 /* Pods */,
+				C16A66257020ADB63808A12F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A13184C21D40A20100AB7D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13184C11D40A20100AB7D1A /* Democracy.app */,
+				A13184DD1D40A20200AB7D1A /* DemocracyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13184C31D40A20100AB7D1A /* Democracy */ = {
+			isa = PBXGroup;
+			children = (
+				A13184C81D40A20100AB7D1A /* AppDelegate.h */,
+				A13184C91D40A20100AB7D1A /* AppDelegate.m */,
+				A16F4C261D4651770063D5C8 /* DataSouuce.h */,
+				A16F4C271D4651770063D5C8 /* DataSouuce.m */,
+				A13184CE1D40A20100AB7D1A /* ViewController.h */,
+				A13184CF1D40A20100AB7D1A /* ViewController.m */,
+				A13184D11D40A20100AB7D1A /* Main.storyboard */,
+				A1D1B58D1D41F1B20031764E /* Controller */,
+				A13184D41D40A20100AB7D1A /* Images.xcassets */,
+				A13184D61D40A20100AB7D1A /* LaunchScreen.xib */,
+				A13184CB1D40A20100AB7D1A /* Democracy.xcdatamodeld */,
+				A1D1B58E1D41F8080031764E /* Film.xcdatamodeld */,
+				A13184C41D40A20100AB7D1A /* Supporting Files */,
+				A1D1B5941D41F8D30031764E /* Models */,
+			);
+			path = Democracy;
+			sourceTree = "<group>";
+		};
+		A13184C41D40A20100AB7D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13184C51D40A20100AB7D1A /* Info.plist */,
+				A13184C61D40A20100AB7D1A /* main.m */,
+				A1D1B5961D41FBDB0031764E /* Pchfilemovie.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A13184E01D40A20200AB7D1A /* DemocracyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13184E31D40A20200AB7D1A /* DemocracyTests.m */,
+				A13184E11D40A20200AB7D1A /* Supporting Files */,
+			);
+			path = DemocracyTests;
+			sourceTree = "<group>";
+		};
+		A13184E11D40A20200AB7D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13184E21D40A20200AB7D1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1D1B58D1D41F1B20031764E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A13184F61D411DA200AB7D1A /* SettingsViewController.h */,
+				A13184F71D411DA200AB7D1A /* SettingsViewController.m */,
+				A13184F31D411D7F00AB7D1A /* HelpViewController.h */,
+				A13184F41D411D7F00AB7D1A /* HelpViewController.m */,
+				A13184F01D411D3100AB7D1A /* AboutViewController.h */,
+				A13184F11D411D3100AB7D1A /* AboutViewController.m */,
+				A13184ED1D411B7D00AB7D1A /* SearchViewController.h */,
+				A13184EE1D411B7D00AB7D1A /* SearchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A1D1B5941D41F8D30031764E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1D1B5911D41F8C80031764E /* Film.h */,
+				A1D1B5921D41F8C80031764E /* Film.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C16A66257020ADB63808A12F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51EC61F92939FFB8676E68DE /* libPods-Democracy.a */,
+				040F6F786F703AB082E0D1D7 /* libPods-DemocracyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEFFBECEFE61F3244BF02266 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8E14D66D4E4AD113D509A /* Pods-Democracy.debug.xcconfig */,
+				93347CE94D0017CA2CCF4525 /* Pods-Democracy.release.xcconfig */,
+				7380C3E1DAC420B12801559E /* Pods-DemocracyTests.debug.xcconfig */,
+				6C9DC691F2B1919660CB374D /* Pods-DemocracyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13184C01D40A20100AB7D1A /* Democracy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13184E71D40A20200AB7D1A /* Build configuration list for PBXNativeTarget "Democracy" */;
+			buildPhases = (
+				99EABBC7094C3D63A263500C /* [CP] Check Pods Manifest.lock */,
+				A13184BD1D40A20100AB7D1A /* Sources */,
+				A13184BE1D40A20100AB7D1A /* Frameworks */,
+				A13184BF1D40A20100AB7D1A /* Resources */,
+				BCF9A442812665CA12A7F0EE /* [CP] Embed Pods Frameworks */,
+				4D285A2BF6F150ACFAC40758 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Democracy;
+			productName = Democracy;
+			productReference = A13184C11D40A20100AB7D1A /* Democracy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13184DC1D40A20200AB7D1A /* DemocracyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13184EA1D40A20200AB7D1A /* Build configuration list for PBXNativeTarget "DemocracyTests" */;
+			buildPhases = (
+				7CAA9498DF86B873FEBA9018 /* [CP] Check Pods Manifest.lock */,
+				A13184D91D40A20200AB7D1A /* Sources */,
+				A13184DA1D40A20200AB7D1A /* Frameworks */,
+				A13184DB1D40A20200AB7D1A /* Resources */,
+				DE326704C05B1F3EA799DA34 /* [CP] Embed Pods Frameworks */,
+				3502DA97DCFCBD722259900A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13184DF1D40A20200AB7D1A /* PBXTargetDependency */,
+			);
+			name = DemocracyTests;
+			productName = DemocracyTests;
+			productReference = A13184DD1D40A20200AB7D1A /* DemocracyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13184B91D40A20100AB7D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = strathmore;
+				TargetAttributes = {
+					A13184C01D40A20100AB7D1A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A13184DC1D40A20200AB7D1A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A13184C01D40A20100AB7D1A;
+					};
+				};
+			};
+			buildConfigurationList = A13184BC1D40A20100AB7D1A /* Build configuration list for PBXProject "Democracy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13184B81D40A20100AB7D1A;
+			productRefGroup = A13184C21D40A20100AB7D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13184C01D40A20100AB7D1A /* Democracy */,
+				A13184DC1D40A20200AB7D1A /* DemocracyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13184BF1D40A20100AB7D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13184D31D40A20100AB7D1A /* Main.storyboard in Resources */,
+				A13184D81D40A20100AB7D1A /* LaunchScreen.xib in Resources */,
+				A13184D51D40A20100AB7D1A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13184DB1D40A20200AB7D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3502DA97DCFCBD722259900A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemocracyTests/Pods-DemocracyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D285A2BF6F150ACFAC40758 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Democracy/Pods-Democracy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CAA9498DF86B873FEBA9018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99EABBC7094C3D63A263500C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF9A442812665CA12A7F0EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Democracy/Pods-Democracy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE326704C05B1F3EA799DA34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemocracyTests/Pods-DemocracyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13184BD1D40A20100AB7D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13184F21D411D3100AB7D1A /* AboutViewController.m in Sources */,
+				A1D1B5901D41F8080031764E /* Film.xcdatamodeld in Sources */,
+				A13184CD1D40A20100AB7D1A /* Democracy.xcdatamodeld in Sources */,
+				A13184CA1D40A20100AB7D1A /* AppDelegate.m in Sources */,
+				A16F4C281D4651770063D5C8 /* DataSouuce.m in Sources */,
+				A13184F81D411DA200AB7D1A /* SettingsViewController.m in Sources */,
+				A1D1B5931D41F8C80031764E /* Film.m in Sources */,
+				A13184EF1D411B7D00AB7D1A /* SearchViewController.m in Sources */,
+				A13184F51D411D7F00AB7D1A /* HelpViewController.m in Sources */,
+				A13184D01D40A20100AB7D1A /* ViewController.m in Sources */,
+				A13184C71D40A20100AB7D1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13184D91D40A20200AB7D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13184E41D40A20200AB7D1A /* DemocracyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13184DF1D40A20200AB7D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13184C01D40A20100AB7D1A /* Democracy */;
+			targetProxy = A13184DE1D40A20200AB7D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13184D11D40A20100AB7D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13184D21D40A20100AB7D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13184D61D40A20100AB7D1A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13184D71D40A20100AB7D1A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13184E51D40A20200AB7D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Democracy/Pchfilemovie.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A13184E61D40A20200AB7D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Democracy/Pchfilemovie.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13184E81D40A20200AB7D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D8E14D66D4E4AD113D509A /* Pods-Democracy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Democracy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A13184E91D40A20200AB7D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93347CE94D0017CA2CCF4525 /* Pods-Democracy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Democracy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13184EB1D40A20200AB7D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7380C3E1DAC420B12801559E /* Pods-DemocracyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemocracyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Democracy.app/Democracy";
+			};
+			name = Debug;
+		};
+		A13184EC1D40A20200AB7D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9DC691F2B1919660CB374D /* Pods-DemocracyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemocracyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Democracy.app/Democracy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13184BC1D40A20100AB7D1A /* Build configuration list for PBXProject "Democracy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13184E51D40A20200AB7D1A /* Debug */,
+				A13184E61D40A20200AB7D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13184E71D40A20200AB7D1A /* Build configuration list for PBXNativeTarget "Democracy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13184E81D40A20200AB7D1A /* Debug */,
+				A13184E91D40A20200AB7D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13184EA1D40A20200AB7D1A /* Build configuration list for PBXNativeTarget "DemocracyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13184EB1D40A20200AB7D1A /* Debug */,
+				A13184EC1D40A20200AB7D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A13184CB1D40A20100AB7D1A /* Democracy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A13184CC1D40A20100AB7D1A /* Democracy.xcdatamodel */,
+			);
+			currentVersion = A13184CC1D40A20100AB7D1A /* Democracy.xcdatamodel */;
+			path = Democracy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A1D1B58E1D41F8080031764E /* Film.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1D1B58F1D41F8080031764E /* Film.xcdatamodel */,
+			);
+			currentVersion = A1D1B58F1D41F8080031764E /* Film.xcdatamodel */;
+			path = Film.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A13184B91D40A20100AB7D1A /* Project object */;
+}
