@@ -1,0 +1,16 @@
+<ion-view view-title="Search Results">
+  <ion-content>
+    
+  	<div class="list">
+
+	    <a class="item" href="#/app/interview/{{result.case_no}}" ng-repeat="result in searchResults">
+	      	<div class="row">
+			  <div class="col">{{result.case_no}}</div>
+			  <div class="col col-75"><strong>{{result.name}}</strong></div>
+			</div>
+	    </a>
+
+	</div>
+
+  </ion-content>
+</ion-view>

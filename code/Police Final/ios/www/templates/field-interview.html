@@ -1,0 +1,58 @@
+<ion-view view-title="Field Interview">
+  <ion-content>
+    
+  	<div class="row">
+  		<div class="col">
+  			<h3 class="text-center">Add Field Interview</h3>
+	  		<form ng-submit="save()">
+
+		  		<div class="list">
+				  <label class="item item-input">
+				    <input type="text" placeholder="Full Name" ng-model='interview.fullName'>
+				  </label>
+				  <label class="item item-input">
+				    <input type="text" placeholder="ID Number" ng-model='interview.idNumber'>
+				  </label>
+				  <label class="item item-input item-select">
+				    <div class="input-label">
+				      Location
+				    </div>
+				    <select ng-model="interview.location">
+				    	<option>Dagoretti</option>
+				      	<option>Kasarani</option>
+				      	<option>Starehe</option>
+				    </select>
+				  </label>
+				  <label class="item item-input">
+				    <input type="number" placeholder="Age" ng-model="interview.age">
+				  </label>
+				  <label class="item item-input item-select">
+				    <div class="input-label">
+				      Crime Type
+				    </div>
+				    <select ng-model="interview.crimeType">
+				    	<option>Murder</option>
+				      	<option>Robbery</option>
+				      	<option>Assault</option>
+				      	<option>Rape</option>
+				    </select>
+				  </label>
+				  <label class="item item-input">
+				    <textarea placeholder="Notes" ng-model="interview.notes"></textarea>
+				  </label>
+				  <label class="item item-input">
+				    <input type="text" placeholder="Officer Name" ng-model="interview.officerName">
+				  </label>
+				  <label class="item item-input">
+				    <input type="text" placeholder="Officer ID" ng-model="interview.officerId">
+				  </label>
+				  
+				</div>
+				<input class="button button-positive button-full" style="margin: 0 auto; min-width: 200px;" type="submit" value="Submit" />
+				  
+			</form>
+		</div>
+  	</div>
+
+  </ion-content>
+</ion-view>
